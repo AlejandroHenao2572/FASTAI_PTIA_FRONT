@@ -30,7 +30,7 @@ npm install
 ## Desarrollo
 
 ```bash
-# Primero levantar el backend (en FASTAI_PTIA/)
+# Primero levantar el backend (en FASTAI_PTIA/) https://github.com/AlejandroHenao2572/FASTAI_PTIA
 source venv/bin/activate
 uvicorn api:app --reload --port 8000
 
@@ -40,7 +40,7 @@ npm run dev
 
 Abrir `http://localhost:5173`.
 
-Las peticiones a `/api/*` se redirigen automáticamente a `http://localhost:8000` via el proxy de Vite — no se requiere configuración adicional.
+Las peticiones a `/api/*` se redirigen automáticamente a `http://localhost:8000`
 
 ---
 
@@ -50,8 +50,6 @@ Las peticiones a `/api/*` se redirigen automáticamente a `http://localhost:8000
 npm run build    # genera dist/
 npm run preview  # sirve el build localmente
 ```
-
-En producción configurar un reverse proxy (nginx, etc.) que enrute `/api` al backend.
 
 ---
 
@@ -96,7 +94,7 @@ src/
 
 Definida en dos puntos:
 
-**`vite.config.ts`** — proxy en desarrollo:
+**`vite.config.ts`**
 ```ts
 server: {
   proxy: {
@@ -112,8 +110,6 @@ server: {
 ```ts
 const BASE = '/api'
 ```
-
-El frontend siempre usa rutas relativas; el proxy de Vite las redirige al backend en dev. En build no hay proxy — configurar a nivel de servidor.
 
 ---
 

@@ -10,6 +10,9 @@ Construida en **React 19 + TypeScript + Tailwind CSS v4**, consume el backend Fa
 ## Desarrollado por
 - David Alejandro Patacón Henao
 - Samuel Antonio Gil Romero
+---
+## Demo funcional
+[DEMO_FASTAI](https://www.youtube.com/watch?v=_s3lLqNvGpY)
 
 ---
 

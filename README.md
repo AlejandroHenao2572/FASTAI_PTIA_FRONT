@@ -2,6 +2,7 @@
 
 Interfaz web para el sistema de predicción de carreras de Fórmula 1.  
 Construida en **React 19 + TypeScript + Tailwind CSS v4**, consume el backend FastAPI del proyecto `FASTAI_PTIA`.
+[FASTAI_PTIA] (https://github.com/AlejandroHenao2572/FASTAI_PTIA)
 
 **Proyecto para Principios y Tecnologías de Inteligencia Artificial — PTIA**  
 **Escuela Colombiana de Ingeniería Julio Garavito**
